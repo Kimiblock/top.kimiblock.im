@@ -1,0 +1,56 @@
+{
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://moechat.kimiblock.top",
+            "server_name": "MoeChat! Server"
+        },
+        "m.identity_server": {
+            "base_url": "https://vector.im"
+        }
+    },
+    "default_device_display_name": "MoeChat Next on Web",
+    "disable_custom_urls": true,
+    "disable_guests": false,
+    "disable_login_language_selector": false,
+    "disable_3pid_login": false,
+    "brand": "MoeChat!",
+    "integrations_ui_url": "",
+    "integrations_rest_url": "",
+    "integrations_widgets_urls": [],
+    "default_country_code": "GB",
+    "show_labs_settings": true,
+    "features": {
+        "feature_jump_to_date": true,
+        "feature_dehydration": true,
+        "feature_rust_crypto": true,
+        "feature_notifications": true
+    },
+    "default_federate": true,
+    "default_theme": "light",
+    "room_directory": {
+        "servers": [
+        "moechat.kimiblock.top",
+        "nichi.co",
+        "envs.net",
+        "matrix.org"
+    ]
+    },
+    "enable_presence_by_hs_url": {},
+    "setting_defaults": {
+        "breadcrumbs": true,
+        "MessageComposerInput.showStickersButton": false
+    },
+    "jitsi": {
+        "preferred_domain": "meet.element.io"
+    },
+    "element_call": {
+        "url": "https://call.element.io",
+        "participant_limit": 8,
+        "brand": "Element Call"
+    },
+    "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx",
+    "branding": {
+        "welcome_background_url": "https://blog.kimiblock.top/img/Background.svg",
+        "auth_header_logo_url": "https://blog.kimiblock.top/img/moechat.svg"
+    }
+}
