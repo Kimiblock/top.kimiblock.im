@@ -20,9 +20,10 @@
     "default_country_code": "GB",
     "show_labs_settings": true,
     "features": {
+        "feature_pinning": true,
         "feature_jump_to_date": true,
+        "feature_mjolnir": true,
         "feature_dehydration": true,
-        "feature_rust_crypto": true,
         "feature_notifications": true
     },
     "default_federate": true,
